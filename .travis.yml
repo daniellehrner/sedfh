@@ -1,0 +1,11 @@
+language: php
+
+php:
+  - '7.1'
+
+install:
+ - composer install
+
+addons:
+  code_climate:
+    repo_token: 6a9a4dba2cd3da08f6c86a5852053a53c5ef45165c4e6c761d3eb47c751d5b27
